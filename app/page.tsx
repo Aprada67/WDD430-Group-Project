@@ -1,7 +1,7 @@
 import Header from "./ui/home/header";
 import NavBar from "./ui/home/nav-bar";
-// import Hero from "./ui/home/hero";
-// import Popular from "./ui/home/popular";
+import Hero from "./ui/home/hero";
+import Popular from "./ui/home/popular";
 
 export default function HomePage() {
   return (
@@ -13,7 +13,7 @@ export default function HomePage() {
       <NavBar />
 
       { /* Hero Image */}
-      {/* <Hero /> */}
+      <Hero />
 
       { /* Intro text */}
       <section className="px-6 py-6">
@@ -26,7 +26,7 @@ export default function HomePage() {
       </section>
 
       { /* Popular Products */}
-      {/* <Popular /> */}
+     <Popular />
     </>
   )
 }
